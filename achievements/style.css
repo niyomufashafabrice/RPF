@@ -1,0 +1,84 @@
+/* Achievemennts Page styles */
+
+/* achievements cards styles */
+.achievement-section-wrapper {
+  background-color: #2da5dd;
+}
+.achievements {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.achievements .grid-child {
+  background-color: #fff;
+}
+
+/* MONUMENTAL ACHIEVEMENTS Styles*/
+
+.monument-left {
+  width: 47% !important;
+}
+.monument-right {
+  width: 45% !important;
+}
+.monumental-section .gap-5 {
+  gap: 5rem !important;
+}
+.has-bg {
+  background-image: url("../asset/images/achievements/8ed52275d2b221eb0cb40279558003ca-scaled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 475px;
+}
+
+.box-title {
+  font-size: 1.4rem;
+  color: #2da5dd;
+  text-transform: uppercase;
+  font-family: "Glancyr-medium";
+}
+.box-content {
+  font-family: "Glancyr-light";
+  color: #6f7785;
+}
+
+/* Liberation Section Styles */
+.section-wrapper {
+  margin-top: 100px;
+}
+.liberation-holder {
+  background-color: #2da5de;
+}
+
+.liberation-holder .row {
+  position: relative;
+}
+.liberation-holder .img-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.img-wrapper img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 75%;
+}
+
+.liberation-header {
+  font-family: "Glancyr-bold";
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.liberation-right h2 {
+  text-align: center;
+}
+
+.with-bg {
+  background-image: url("../asset/images/achievements/ingabo_za_rpa_mu_rugamba_rwo_kubohora_igihugu-24546-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

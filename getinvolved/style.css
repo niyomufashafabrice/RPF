@@ -1,0 +1,150 @@
+.box1{
+    /* background-image: url(../asset/images/53772124372_63fb659fee_c.jpg); */
+    width: 45%;
+    height: 400px;
+
+}
+.my-imge{
+    object-fit: cover;
+    /* width: 10%!important; */
+    height: 100%;
+    width: 100%;
+}
+box2{
+    width: 45%;
+}
+.box4{
+  
+    width: 45%;
+    height: 400px;
+}
+
+.common-header{
+    position: relative;
+}
+.ttxt{
+    font-weight: 400;
+    color:#6f7785;
+}
+li{
+    color:#6f7785;
+}
+
+.header-wrapper {
+    margin-top: -5rem!important;
+}
+.footer-inpt{
+    width: 100%!important;
+}
+.footer-form{
+    width: 30rem!important;
+    height: 60px;
+   
+}
+.footer-nav-wrapper{
+    font-size: 14px!important;
+}
+.Contact-icon svg {
+    height: 2rem!important;
+    width: 2rem!important;
+    position: relative!important;
+    display: block!important;
+}
+.icon-holder{
+    padding: 1px!important;
+}
+  
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2DA5DE;
+    border-radius: 10px;
+    
+}
+/* .common-header::before{
+    position:absolute;
+    content: "";
+    left: 35px;
+    bottom: 0;
+    width: 15px;
+    height: 7px;
+    background: #2DA5DE;
+    border-radius: 15px;
+  
+
+}
+
+.common-header::after{
+    position:absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 7px;
+    background: red;
+    border-radius: 15px;
+
+} */
+@media only screen and (max-width: 767px) {
+    .box1{
+        width: 100%;
+        /* margin-top: 10px; */
+        margin-bottom: 25px;
+        justify-content: center!important;
+        height: 300px!important;
+    }
+    .my-imge{
+        /* height: 100%; */
+        width: 100%!important;
+    }
+    .container{
+    width: 100%!important;
+    margin-top: auto!important;
+    padding: 0px!important;
+    
+    }
+   .header-wrapper{
+    width: 100%!important;
+    /* margin-top: -10rem!important; */
+    margin-bottom: 0px!important;
+    height: 600px!important;
+   }
+   .layer-img{
+    width: 100%!important;
+    
+    
+   }
+   .box4{
+    width: 100%!important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+   
+}
+.box2 {
+    padding-left: 2rem!important;
+    padding-right: 1rem!important;
+}
+.box2 h2 {
+    font-size: 22px!important;
+}
+.mybody{
+    overflow-x: hidden!important;
+    /* overflow: hidden!important; */
+}
+.newsletter{
+    padding: 1rem;
+}
+.footer-nav-wrapper{
+    padding: 20px;
+}
+.mycotact{
+  width: 59%!important;
+  padding-right: 0px!important;
+ 
+ 
+}
+}
+
+

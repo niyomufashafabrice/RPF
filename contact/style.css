@@ -1,0 +1,139 @@
+.myinpt{
+   width: 45%;
+   border-radius: 5px;
+   color: grey;
+   border: 1px, grey, solid;
+}
+textarea{
+    width: 95%;
+    height: 11rem;
+    border-radius: 5px;
+    color: grey;
+}
+button{
+    background-color: white;
+    color: grey;
+    border: 1px, grey,solid;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #2DA5DE;
+    color: white;
+}
+h1{
+    font-weight: 800;
+    color: #797E7F;
+    font-size: 35px;
+    font-weight: bold;
+}
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.footer-inpt{
+    width: 100%!important;
+}
+.footer-form{
+    width: 30rem!important;
+    height: 60px;
+   
+}
+.footer-nav-wrapper{
+    font-size: 14px!important;
+}
+.Contact-icon svg {
+    height: 2rem!important;
+    width: 2rem!important;
+    position: relative!important;
+    display: block!important;
+}
+.icon-holder{
+    padding: 1px!important;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2DA5DE;
+    border-radius: 10px;
+    
+}
+/* iframe{
+    width: 600px;
+    height: ;
+} */
+
+
+@media only screen and (max-width: 767px) {
+
+    .myinpt{
+        width: 100%;
+        border-radius: 5px;
+        color: grey;
+        margin-bottom: 10px;
+     }
+     textarea{
+         width: 100%;
+         height: 11rem;
+         border-radius: 5px;
+         color: grey;
+     }
+     button{
+        background-color: white;
+        color: grey;
+        border: 1px, grey,solid;
+        font-weight: bold;
+        width: 100%;
+    }
+    .map{
+        padding: 2px;
+        display: flex;
+    }
+    .newsletter{
+        padding: 1rem;
+        height: 9rem!important;
+       
+    }
+    .newsletter-wrapper{
+        padding-top: 0px!important;
+    }
+    .footer-nav-wrapper{
+        padding: 20px;
+    }
+    .mycotact{
+        width: 59%!important;
+        padding-right: 0px!important;
+    }
+    .footer-inpt{
+     width: 100%!important;
+    }
+    
+    .subscribe-btn{
+        height: 3.8rem!important;
+        width: 4rem!important;
+    }
+    .top-titles{
+        font-size: 22px!important;
+        margin-bottom: 0px!important;
+    }
+    .site-logo-wrapper{
+        width: 50%!important;
+        /* background-color: red; */
+    }
+    .imgfooter{
+        width: 90%!important;
+    }
+    .nav-wrapper{
+        display: flex;
+    }
+    .mytoggler{
+        width: 10%!important;
+        justify-content: center!important;
+        display: flex;
+        color: black!important;
+    }
+}
