@@ -66,26 +66,22 @@ h1{
     display: block; /* Show dropdown when hovering over the nav item */
     border-radius: 0px;
     border: 1px, solid, white;
-    padding-left: 0;
-  }
-.nav-item.dropdown:hover .dropdown-menu .dropdown-item{
-    /* background-color: #797E7F; */
-    /* margin-bottom: -16px!important;
-    margin-left: -13px!important;
-    margin-top: -10px; */
-    padding: 5px;
     
-}
+  }
 
  
-.dropdown-item:hover{
+.dropdown-menu li:hover{
     background-color: #797E7F;
-    color: white!important;
     width: 100%!important;
 }
+.dropdown-menu li:hover a,.dropdown-item:hover{
+    color: #fff!important;
+}
 
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color:transparent!important;
+}
 
-  
 
 @media only screen and (max-width: 767px) {
 
