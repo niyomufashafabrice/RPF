@@ -1,3 +1,23 @@
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown when hovering over the nav item */
+  border-radius: 0px;
+  border: 1px, solid, white;
+  
+}
+.dropdown-menu li:hover{
+  background-color: #797E7F;
+  width: 100%!important;
+}
+.dropdown-menu li:hover a,.dropdown-item:hover{
+  color: #fff!important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color:transparent!important;
+}
+
+
+
 /* creating font faces of Glancyr font */
 @font-face {
   font-family: "Glancyr-extra-thin";

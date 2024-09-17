@@ -1,0 +1,173 @@
+.mymagee{
+   width: 100%!important;
+   height: 100%!important;
+   object-fit: cover!important;
+}
+.imgecrd{
+    height: 100%!important;
+    width: 45%!important;
+    
+}
+.textCard1{
+    width: 55%!important;
+    background-color: #F4F4F4!important;
+    padding-top: 40px;
+    padding-bottom: 3rem;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    
+}
+.textCard1 h1{
+    font-size: 16px!important;
+    /* line-height: 21px!important; */
+    font-weight: 500!important;
+    font-family: 'Glancyr-medium';
+}
+.textCard1 a{
+    text-decoration: none!important;
+    color: rgb(111, 119, 133)!important;
+    font-weight: 500!important;
+    font-family: 'Glancyr-medium';
+}
+.textCard1 p{
+    font-family: 'Glancyr-regular';
+    font-weight: 400!important;
+    color: rgb(111, 119, 133)!important;
+    font-size: 14px!important;
+    line-height: 21px!important;
+
+}
+.textCard1 ul li {
+    list-style: none;
+    display: inline!important;
+}
+.textCard1 .btnn{
+    border: 1px solid rgb(111, 119, 133);
+    font-weight: 500!important;
+    font-size: 16px!important;
+    font-family: 'Glancyr-medium';
+    color: rgb(111, 119, 133)!important;
+}
+.textCard1 .btnn:hover{
+    background-color: #2DA5DE!important;
+    color: white!important;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2DA5DE;
+    border-radius: 10px;
+    
+}
+
+.footer-inpt{
+    width: 100%!important;
+}
+.footer-form{
+    width: 30rem!important;
+    height: 60px;
+   
+}
+.footer-nav-wrapper{
+    font-size: 14px!important;
+}
+.Contact-icon svg {
+    height: 2rem!important;
+    width: 2rem!important;
+    position: relative!important;
+    display: block!important;
+}
+.icon-holder{
+    padding: 1px!important;
+}
+.textCard1 .datee{
+    color: red!important;
+}
+
+
+@media only screen and (max-width: 767px) {
+   .nav-wrapper {
+    display: flex!important;
+   
+   
+   }
+   .logoimge{
+    width: 100%!important;
+   }
+   .navbar-brand{
+     width: 50%!important;
+   }
+   .mytoggler{
+    padding: 3px!important;
+    border-radius: 0!important;
+    
+   }
+
+    .minnee{
+        display: flex!important;
+        flex-direction: column!important;
+        margin-bottom: 2rem!important;
+    }
+    .imgecrd{
+        /* height: 100%!important; */
+        width: 100%!important;
+        
+    }
+    .textCard1{
+        width: 100%!important;
+    }
+    .textCard1 p{
+        display: none!important;
+    
+    }
+    .readmorebtn{
+        margin-top: -2rem!important;
+    }
+    .textCard1 h1 {
+        font-size: 14px!important;
+    }
+    .container {
+        margin-bottom: -3rem!important;
+    }
+     /* footer*/
+     .newsletter{
+        padding: 1rem;
+        height: 9rem!important;
+       
+    }
+    .newsletter-wrapper{
+        padding-top: 0px!important;
+    }
+    .footer-nav-wrapper{
+        padding: 20px;
+    }
+    .mycotact{
+        width: 70%!important;
+        padding-right: 0px!important;
+    }
+    .footer-inpt{
+     width: 100%!important;
+    }
+    
+    .subscribe-btn{
+        height: 3.8rem!important;
+        width: 4rem!important;
+    }
+    .top-titles{
+        font-size: 22px!important;
+        margin-bottom: 0px!important;
+    }
+    .site-logo-wrapper{
+        width: 50%!important;
+        /* background-color: red; */
+    }
+    .imgfooter{
+        width: 90%!important;
+    }
+    footer{
+        margin-top: 5rem!important;
+    }
+}
